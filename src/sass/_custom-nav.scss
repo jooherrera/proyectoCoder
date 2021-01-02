@@ -1,0 +1,64 @@
+@import "font";
+
+.brand-size{
+    // width: 50vw;
+    width: fit-content;
+ h1{
+     font-family: $f-restricted;
+     color:  #7E2398;
+ }
+}
+
+.ms-web{
+    margin-left: 2%;
+}
+
+.me-web{
+    margin-right: 2%;
+}
+
+
+@media (max-width:992px){
+    .nav-link2{
+        // width: max-content;
+        margin-left: 10px;
+        // border-bottom: 1px solid #7E2398;
+        
+    }
+
+    .nav-link2:hover{
+    text-decoration: none;       
+
+
+    }
+
+    
+
+    .navbar-nav{
+        position: relative;
+        box-sizing: border-box;
+        left: 0;
+        width: 100%;
+        transition: all 0.5s ease;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (min-width:992px){
+    .ms-web{
+        margin-left: 8%;
+    }
+    
+    .me-web{
+        margin-right: 8%;
+    }
+
+}
+
+
+
+
+

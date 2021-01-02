@@ -1,0 +1,21 @@
+
+$f-family : basketball;
+$f-restricted : Restricted;
+
+@font-face{
+    font-family: $f-family;
+    src: url("../fonts/Basketball.otf");
+}
+
+@font-face{
+    font-family: $f-restricted;
+    src: url("../fonts/RestrictedArea.ttf");
+}
+
+@mixin font-nav($f-size) {
+ 
+
+    font-family: $f-family;
+    letter-spacing: 1px;
+    font-size: $f-size;
+}

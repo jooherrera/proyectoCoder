@@ -1,0 +1,16 @@
+%lineasHorizontales{
+    position: absolute;
+    top: 0;
+    width: 9.2%;
+    height: 100vh;
+    z-index: 1;
+    opacity: .4;
+}
+.tt-izq{
+    @extend %lineasHorizontales;
+    left: 0;
+}
+.tt-der{
+    @extend %lineasHorizontales;
+    right: 0;
+}

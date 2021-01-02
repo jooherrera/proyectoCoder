@@ -1,0 +1,39 @@
+@mixin tamanoContainer2($width, $ml, $mt){
+    width: $width;
+    margin-left: $ml;
+    margin-top: $mt;    
+}
+
+
+
+@mixin button-position($top, $ml, $mr,$l, $r ) {
+    width: max-content;
+    padding: .2% 2.3%;
+    top: $top;
+    border-radius: 36px;
+    margin-left: $ml;
+    margin-right: $mr;
+    left: $l;
+    right: $r;
+}
+
+.container2{
+
+    @include tamanoContainer2(70%,18% ,-8% );
+
+    @media (min-width:992px){@include tamanoContainer2(38vw,10% ,-25% );}
+
+    @media (min-width:1400px){@include tamanoContainer2(35vw,10% ,-25% );}
+
+}
+
+
+.web-button-position{
+    
+    @include button-position(120%,auto ,auto ,0 ,0 );
+
+    @media (min-width:992px){@include button-position(57%,0 ,0 ,17% ,0 );}
+
+    @media (min-width:1400px){@include button-position(57%, 0, 0 ,17% ,0 );}
+
+}

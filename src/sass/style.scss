@@ -1,0 +1,115 @@
+// @include font-nav();  -->  _fonts.scss
+
+
+
+// COLORES PRINCIPALES DE LA WEB
+@import "custom-nav";
+@import "margen";
+@import "home";
+@import "quienesSomos";
+@import "tecnicas";
+@import "trabajosRealizados";
+@import "tips";
+@import "contacto";
+@import "footer";
+@import "font";
+
+
+
+
+$theme-colors: (
+  primary:    #7E2398,
+  secundary:  #929292,
+  terciary:   #56A6BF,
+  button:     #eeeeee96,
+  backg:      rgba(34, 5, 34, 0.315),
+  backg-c: rgb(0, 0, 0),
+  backg-co: rgba(63, 2, 63, 0.212),
+);
+
+
+
+
+
+@each $theme-color, $color in $theme-colors{
+    .web-c-#{$theme-color} {
+        color: $color !important;
+    }
+    .web-bg-c-#{$theme-color} {
+        @media (max-width:992px){
+        background-color: $color !important;
+        }
+
+        @media (min-width:992px){
+            background: linear-gradient(#000,#000,RGB(63, 2, 63, 0.212));
+        }
+
+    }
+
+
+}
+
+body{
+    
+    
+    background: #000;
+    
+    
+}
+
+.back{
+    margin-top: -80px;
+    z-index: 0;
+}
+
+.web-img-fluid{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+.web-font{
+
+    @include font-nav(1.4rem);
+ 
+}
+
+
+
+.web-font-button{
+    @include font-nav(1.5rem);
+    
+    
+    // margin: auto !important;
+    @media (min-width: 576px) {
+        @include font-nav(1.7rem);
+    }
+
+    @media (min-width: 992px) {
+        @include font-nav(2.2rem);
+    }
+    @media (min-width: 1400px) {
+        @include font-nav(2.7rem);
+}
+}
+    
+.minWidth{
+    min-width: 320px;
+        @media (max-width:320px){
+            margin-top: 0;
+
+            }
+}
+
+.container{
+    text-align: center;
+}
+.webspace{
+    position: absolute;
+    top: 80px;
+}
+
+

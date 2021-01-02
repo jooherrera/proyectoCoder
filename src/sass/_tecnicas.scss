@@ -1,0 +1,95 @@
+.web-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28vw;
+
+    @media (min-width:992px){
+        flex-direction: row;    
+        margin-top: 10vw;
+    }
+}
+
+
+
+.web-img-tec{
+  
+     overflow: hidden;
+  
+    order: 2;
+ }
+
+.web-font-class-t{
+    display: flex;
+    font-family: 'Russo One', sans-serif;
+    font-size: 5.3vw;
+    color: #999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     line-height: 10px;   
+     order: 1;
+    
+}
+.aa:first-child{
+    margin-top: 30px;
+}
+.aa{
+    margin-top: 14px ;
+    margin-bottom: 3.5vw ;
+}
+
+@media (min-width:576px){
+    .aa{
+        margin-top: 14px ;
+        margin-bottom: 4.5vw ;
+    }
+}
+
+@media (min-width:768px){
+    .web-font-class{line-height: 1px;}
+    .aa{
+        margin-top: 14px ;
+        margin-bottom: 4.5vw ;
+    }
+}
+
+@media (min-width:992px){
+    .web-img-2tec{
+        width: 10vw;
+        flex-grow: 1;
+        display: inline-block !important;
+        z-index: 100;
+        order: 1;
+    }
+
+    .web-img-t{display: none}
+
+    .web-font-class-t{
+        flex-grow: 1;
+        letter-spacing: -2px;
+        order: 0;
+    }
+
+     .tec{
+        letter-spacing: -2px;
+        font-family: 'Russo One', sans-serif;
+        display: inline-block !important;
+        background: #ad1fb4;
+        padding: 0 5% 0 2% ;
+        margin-left: 35vw;
+        border-radius: 40px;
+        position: absolute;
+        color: #000;
+        font-size: 4vw;
+        margin-top: 8%;
+    }
+
+    .aa{
+        margin-bottom: 7vh;
+        padding: 0; 
+        display: block;
+        font-size: 2.3vw;
+    }
+
+    .aa:first-child{margin-top: 25%}
+}
