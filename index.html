@@ -57,13 +57,15 @@
 </head>
 
 <body>
+
   <!-- <div class="web-bg-c-terciary tt-izq"></div> -->
   <!-- <div class="web-bg-c-terciary tt-der"></div> -->
-
+  
   <nav class="container-fluid navbar navbar-expand-lg navbar-light web-bg-c-backg-c sticky-top position-fixed ">
     <div class="container-fluid">
       <a class="navbar-brand brand-size ms-web" href="#home">
         <h1>DOWN DARK</h1>
+        
         <!-- <img src="src/assets/image/downdark_logo.svg" alt="logo" class="d-inline-block align-top"> -->
       </a>
       <button class="navbar-toggler web-bg-c-button " type="button" data-bs-toggle="collapse"
@@ -85,19 +87,21 @@
   <div>
 
   </div>
+  
   <main>
+    
     <!-- Seccion HOME -->
     <section id="home" class="back position-relative top-0 mt-0">
       <img src="src/assets/image/fondo.png" alt="imagen de fondo" class=" web-img-fluid">
       <div class="container2 position-absolute top-50 ">
-        <img src="src/assets/image/home.svg" alt="logo down dark">
+        <img id="animLogo" src="src/assets/image/home.svg" alt="logo down dark">
       </div>
       <div>
-        <a class="btn btn-info position-absolute web-button-position web-font-button " href="#contactanos"
+        <a id="animContact" class="btn btn-info position-absolute web-button-position web-font-button  " href="#contactanos"
           role="button">Contactanos</a>
       </div>
     </section>
-
+   
     <!-- Seccion Quienes Somos -->
     <section id="quienes_somos" class="position-relative web-container">
       <div class="web-img">
@@ -264,6 +268,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
     integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
     crossorigin="anonymous"></script>
+
+
+    <script src="jquery-3.1.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.js"></script>
+    <script src="index.js"></script>
+
 
 </body>
 
