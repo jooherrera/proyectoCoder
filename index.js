@@ -9,7 +9,7 @@ function init(){
       trigger: ('#quienes_somos'),
       start: 'top bottom-=150',
       end: 'bottom center-=250',
-      toggleClass:'activeAnim',
+      toggleClass:'activeAnim'
     
     }
 
@@ -20,7 +20,7 @@ function init(){
       trigger: ('#tecnicas'),
       start: 'top bottom-=150',
       end: 'bottom center-=250',
-      toggleClass:'activeAnim',
+      toggleClass:'activeAnim'
     
     }
 
@@ -31,7 +31,7 @@ function init(){
       trigger: ('#trabajos'),
       start: 'top bottom-=150',
       end: 'bottom center-=250',
-      toggleClass:'activeAnim',
+      toggleClass:'activeAnim'
      
     }
 
@@ -45,7 +45,7 @@ function init(){
       trigger: ('.tipsAnim'),
       start: 'top bottom-=150',
       end: 'bottom+=600 center-=250',
-      toggleClass:'activeAnim',
+      toggleClass:'activeAnim'
      
     }
 
@@ -57,7 +57,7 @@ function init(){
       trigger: ('.tipsAnim'),
       start: 'top bottom-=150',
       end: 'bottom+=600 center-=250',
-      toggleClass:'activeAnim',
+      toggleClass:'activeAnim'
       
     }
 
