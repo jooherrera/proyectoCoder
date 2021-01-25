@@ -10,7 +10,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom center-=250',
       toggleClass:'activeAnim',
-      markers: true
+     // markers: true
     }
 
    })
