@@ -61,7 +61,7 @@
   <!-- <div class="web-bg-c-terciary tt-izq"></div> -->
   <!-- <div class="web-bg-c-terciary tt-der"></div> -->
   
-  <nav class="container-fluid navbar navbar-expand-lg navbar-light web-bg-c-backg-c sticky-top position-fixed ">
+  <nav id="animNav" class="container-fluid navbar navbar-expand-lg navbar-light web-bg-c-backg-c sticky-top position-fixed ">
     <div class="container-fluid">
       <a class="navbar-brand brand-size ms-web" href="#home">
         <h1>DOWN DARK</h1>
@@ -74,7 +74,7 @@
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end  me-web" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
+        <div id="animList" class="navbar-nav ">
           <a class="nav-link nav-link2 web-c-secundary web-font" href="#quienes_somos">QUIENES SOMOS</a>
           <a class="nav-link nav-link2 web-c-secundary web-font" href="#tecnicas">TECNICAS</a>
           <a class="nav-link nav-link2 web-c-secundary web-font" href="#trabajos">TRABAJOS REALIZADOS</a>
@@ -92,11 +92,11 @@
     
     <!-- Seccion HOME -->
     <section id="home" class="back position-relative top-0 mt-0">
-      <img src="src/assets/image/fondo.png" alt="imagen de fondo" class=" web-img-fluid">
+      <img id="animBG" src="src/assets/image/fondo.png" alt="imagen de fondo" class=" web-img-fluid">
       <div class="container2 position-absolute top-50 ">
         <img id="animLogo" src="src/assets/image/home.svg" alt="logo down dark">
       </div>
-      <div>
+      <div >
         <a id="animContact" class="btn btn-info position-absolute web-button-position web-font-button  " href="#contactanos"
           role="button">Contactanos</a>
       </div>
@@ -276,7 +276,7 @@
     <!-- Animaciones -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
-    
+
     <script src="index.js"></script>
 
 
