@@ -113,3 +113,34 @@ body{
 }
 
 
+
+#quienes_somos{
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+
+
+#tecnicas{
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+#trabajos{
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.tipsAnim{
+   
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+
+
+
+.activeAnim{
+    opacity: 1!important;
+   
+}

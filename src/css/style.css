@@ -353,7 +353,7 @@
   }
 }
 .tips {
-  height: 19.3vw;
+  height: 19.3vh;
   position: relative;
 }
 
@@ -732,6 +732,30 @@ body {
 .webspace {
   position: absolute;
   top: 80px;
+}
+
+#quienes_somos {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+#tecnicas {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+#trabajos {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.tipsAnim {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.activeAnim {
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
