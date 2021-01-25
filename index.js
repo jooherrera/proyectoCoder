@@ -10,7 +10,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom center-=250',
       toggleClass:'activeAnim',
-     // markers: true
+    
     }
 
    })
@@ -21,7 +21,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom center-=250',
       toggleClass:'activeAnim',
-     // markers: true
+    
     }
 
    })
@@ -32,7 +32,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom center-=250',
       toggleClass:'activeAnim',
-      //markers: true
+     
     }
 
    })
@@ -46,7 +46,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom+=600 center-=250',
       toggleClass:'activeAnim',
-      //markers: true
+     
     }
 
    })
@@ -58,7 +58,7 @@ function init(){
       start: 'top bottom-=150',
       end: 'bottom+=600 center-=250',
       toggleClass:'activeAnim',
-      //markers: true
+      
     }
 
    })
